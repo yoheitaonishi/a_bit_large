@@ -1,8 +1,8 @@
 import logging
 
-logger = logging.getLogger('OrderLogging')
+logger = logging.getLogger('ArbitrageLogging')
 logger.setLevel(10)
-fh = logging.FileHandler('../log/order.log')
+fh = logging.FileHandler('log/arbitrage.log')
 logger.addHandler(fh)
 sh = logging.StreamHandler()
 logger.addHandler(sh)
